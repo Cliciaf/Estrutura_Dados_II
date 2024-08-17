@@ -62,7 +62,7 @@ int eh_primo(int n) {
 }
 ```
 Qual é a complexidade do algoritmo para verificar se um número é primo?
-O(n)
+O(raiz de n)
 ## Exercício 5: Ordenação por Inserção
 Analise a complexidade do algoritmo de ordenação por inserção abaixo:
 ```c
