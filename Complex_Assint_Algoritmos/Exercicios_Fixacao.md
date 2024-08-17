@@ -130,7 +130,7 @@ int conta_digitos(int n) {
 }
 ```
 Qual é a complexidade desse algoritmo para contar o número de dígitos?
-O(n)
+O(log n)
 ## Exercício 10: Merge Sort
 Considere o seguinte algoritmo de Merge Sort:
 ```c
