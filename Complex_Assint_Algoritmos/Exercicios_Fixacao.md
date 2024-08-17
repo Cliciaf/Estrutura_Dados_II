@@ -116,7 +116,7 @@ void quick_sort(int vetor[], int baixo, int alto) {
 Qual é a complexidade do Quick Sort nos três casos (melhor, pior e caso médio)?
 pior caso:  O(n²)
 médio: O(n)
-melhor caso: O(n)
+melhor caso: O(1)
 ## Exercício 9: Contagem de Dígitos
 Analise a complexidade do seguinte algoritmo que conta o número de dígitos de um número inteiro:
 ```c
