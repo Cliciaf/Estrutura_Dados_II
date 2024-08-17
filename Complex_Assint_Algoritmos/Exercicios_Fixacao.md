@@ -11,6 +11,8 @@ int soma(int vetor[], int n) {
 ```
 Qual é a complexidade desse algoritmo?
 
+o(n²)
+
 ## Exercício 2: Multiplicação de Matrizes
 Considere o algoritmo abaixo para multiplicar duas matrizes:
 ```c
@@ -26,7 +28,7 @@ void multiplica_matrizes(int A[][n], int B[][n], int C[][n], int n) {
 }
 ```
 Qual é a complexidade desse algoritmo em termos de n?
-
+O (n³)
 ## Exercício 3: Busca Binária
 Analise a complexidade do seguinte algoritmo de busca binária:
 ```c
@@ -45,7 +47,7 @@ int busca_binaria(int vetor[], int n, int x) {
 }
 ```
 Qual é a complexidade do algoritmo de busca binária?
-
+O (log n)
 ## Exercício 4: Verificação de Número Primo
 Dado o algoritmo abaixo que verifica se um número é primo, determine a complexidade:
 ```c
@@ -60,7 +62,7 @@ int eh_primo(int n) {
 }
 ```
 Qual é a complexidade do algoritmo para verificar se um número é primo?
-
+O(n)
 ## Exercício 5: Ordenação por Inserção
 Analise a complexidade do algoritmo de ordenação por inserção abaixo:
 ```c
@@ -77,7 +79,7 @@ void insertion_sort(int vetor[], int n) {
 }
 ```
 Qual é a complexidade do pior caso para o algoritmo de ordenação por inserção?
-
+O(n²)
 ## Exercício 6: Fibonacci Recursivo
 Considere o seguinte algoritmo recursivo para calcular o n-ésimo número de Fibonacci:
 ```c
@@ -88,7 +90,7 @@ int fibonacci(int n) {
 }
 ```
 Qual é a complexidade do algoritmo recursivo para calcular o n-ésimo número de Fibonacci?
-
+ O(2^n)
 ## Exercício 7: Soma Recursiva dos Números de 1 a N
 Analise a complexidade do algoritmo recursivo abaixo:
 ```c
@@ -99,7 +101,7 @@ int soma_recursiva(int n) {
 }
 ```
 Qual é a complexidade do algoritmo para somar recursivamente os números de 1 a N?
-
+O(n)
 ## Exercício 8: Quick Sort
 Dado o seguinte algoritmo de Quick Sort, determine sua complexidade no melhor, pior e caso médio:
 ```c
@@ -112,7 +114,9 @@ void quick_sort(int vetor[], int baixo, int alto) {
 }
 ```
 Qual é a complexidade do Quick Sort nos três casos (melhor, pior e caso médio)?
-
+pior caso:  O(n²)
+médio: O(n log n)
+melhor caso: O(n log n)
 ## Exercício 9: Contagem de Dígitos
 Analise a complexidade do seguinte algoritmo que conta o número de dígitos de um número inteiro:
 ```c
@@ -126,7 +130,7 @@ int conta_digitos(int n) {
 }
 ```
 Qual é a complexidade desse algoritmo para contar o número de dígitos?
-
+O(n)
 ## Exercício 10: Merge Sort
 Considere o seguinte algoritmo de Merge Sort:
 ```c
@@ -140,3 +144,4 @@ void merge_sort(int vetor[], int l, int r) {
 }
 ```
 Qual é a complexidade do algoritmo de Merge Sort?
+O(n log n)
