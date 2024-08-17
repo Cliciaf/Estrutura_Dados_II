@@ -11,7 +11,7 @@ int soma(int vetor[], int n) {
 ```
 Qual é a complexidade desse algoritmo?
 
-o(n²)
+o(n)
 
 ## Exercício 2: Multiplicação de Matrizes
 Considere o algoritmo abaixo para multiplicar duas matrizes:
