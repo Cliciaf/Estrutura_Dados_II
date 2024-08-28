@@ -51,14 +51,26 @@ struct NoArvore *inserirNo( struct NoArvore *raiz ,int dado)
 
 };
 
-struct NoArvore *excluirNo( struct NoArvore *raiz ,int dado)
+struct NoArvore *retirarNo( struct NoArvore *raiz ,int dado)
 {
 
 
-    if( raiz->dado == dado)
+    if( raiz == NULL)
     {
-        raiz->
+        return raiz;
     };
+    if( raiz->dado < dado)
+    {
+        retirarNo( raiz->dir, dado);
+    }else if( raiz->dado > dado)
+    {
+        retirarNo( raiz->esq, dado);
+    }else
+    {
+        if(raiz->esq == NULL)
+    
+        if(raiz->dir == NULL)
+    }
 
 };
 
