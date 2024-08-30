@@ -68,11 +68,22 @@ struct NoArvore *retirarNo( struct NoArvore *raiz ,int dado)
     }else
     {
         if(raiz->esq == NULL)
+        { 
+            struct NoArvore *temp = raiz->dir;
+            free(raiz);
+            return temp;
+            }
     
         if(raiz->dir == NULL)
+        {
+            struct NoArvore *temp = raiz->esq;
+            free(raiz);
+            return temp;
+        }
     }
 
 };
+
 
 // Função para exibir a árvore no formato esquerda-raiz-direita segundo Sedgewick
 void mostraArvore(struct NoArvore *a, int b)
